@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime" Version="3.0.0" />
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.10.3" />
     <PackageReference Include="opennlp.net" Version="1.9.1" />
+    <PackageReference Include="Porter2Stemmer" Version="1.0.0" />
     <PackageReference Include="Stanford.NLP.CoreNLP" Version="3.9.2" />
   </ItemGroup>
 

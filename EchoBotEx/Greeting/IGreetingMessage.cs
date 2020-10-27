@@ -7,7 +7,7 @@ namespace EchoBotEx.Greeting
 {
     public interface IGreetingMessage
     {
-        public Task<string> CheckGreetings(string msg);
-        public Task<string> GreetingMessage(string message);
+        public string CheckGreetings(string msg);
+        //string GenerateGreetingMessage(string message);
     }
 }

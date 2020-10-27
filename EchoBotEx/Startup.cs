@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using EchoBotEx.Bots;
 using EchoBotEx.Greeting;
 using EchoBotEx.ProcessMessages;
+using EchoBotEx.TransferRequests;
 
 namespace EchoBotEx
 {
@@ -38,6 +39,7 @@ namespace EchoBotEx
             services.AddTransient<IBot, BankInteligentBot>();
             services.AddTransient<IGreetingMessage, GreetingMessage>();
             services.AddTransient<IProcessMessage, ProcessMessage>();
+            services.AddTransient<ITransferRequest,TransferRequest > ();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
